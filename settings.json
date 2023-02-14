@@ -1,0 +1,61 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+      "[Monokai]": {
+        "editor.background": "#051626",
+        "statusBar.background": "#0b1014",
+        "editorGroupHeader.tabsBackground": "#072139",
+        "activityBar.background": "#051626",
+        "tab.inactiveBackground": "#072139",
+        "tab.activeBackground": "#051626",
+        "tab.activeBorder": "#ffffff",
+        "sideBar.foreground": "#c7c7c7",
+        "sideBar.background": "#051626",
+      }
+  },
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"],
+    "editor.minimap.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.packageManager": "yarn",
+    "eslint.codeAction.disableRuleComment": {
+      "enable": false
+    },
+    "editor.formatOnSave": true,
+    "editor.cursorStyle": "block",
+    "prettier.requireConfig": true,
+    "[jsonc]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "git.autofetch": true,
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "material-icon-theme.activeIconPack": "react",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.lineNumbers": "relative",
+    "editor.renderLineHighlight": "all",
+    "editor.cursorBlinking": "solid",
+    "zenMode.hideLineNumbers": false,
+    "workbench.startupEditor": "none",
+    "editor.renderWhitespace": "trailing",
+    "editor.linkedEditing": true,
+    "editor.occurrencesHighlight": false,
+    "editor.suggest.insertMode":"replace",
+    "files.autoSave": "onFocusChange",
+    "explorer.autoReveal": false,
+    "workbench.tree.indent": 15,
+    "workbench.editor.enablePreview": false
+  }
